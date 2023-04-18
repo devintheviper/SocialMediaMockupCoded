@@ -1,0 +1,146 @@
+body {
+    background-color: #4aa3df;
+    background-image: linear-gradient(to bottom right, #4aa3df, #2e86c1);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+    
+    .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    }
+    
+    .post {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    margin-right: 20px;
+    }
+    
+    .profile-pic {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    }
+    
+    .pic1 {
+    background-image: url('https://randomuser.me/api/portraits/thumb/men/1.jpg');
+    }
+    
+    .pic2 {
+    background-image: url('https://randomuser.me/api/portraits/thumb/women/2.jpg');
+    }
+    
+    .pic3 {
+    background-image: url('https://randomuser.me/api/portraits/thumb/men/3.jpg');
+    }
+    
+    .post-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    }
+    
+    .post h2 {
+    color: #333;
+    font-size: 24px;
+    margin-top: 0;
+    }
+    
+    .post p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.5;
+    }
+    
+    .views {
+    color: #999;
+    font-size: 14px;
+    margin-top: 10px;
+    }
+    
+    .share-button {
+    background-color: #3498db;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+    }
+    
+    .share-button:hover {
+    background-color: #2980b9;
+    }
+    
+    .share-button:focus {
+    outline: none;
+    }
+    
+    .sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #f0f0f0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    }
+    
+    .nav-link {
+    display: block;
+    padding: 10px;
+    color: #000;
+    text-decoration: none;
+    margin-bottom: 10px;
+    }
+    
+    .nav-link:hover {
+    background-color: #ccc;
+    }
+    
+    .active {
+    background-color: #ccc;
+    color: #fff;
+    }
+    #logout-btn {
+    display: block;
+    padding: 10px;
+    background-color: #f44336;;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: auto;
+    align-self: center;
+    }
+    
+    #logout-btn:hover {
+    background-color: #d32f2f;
+    }
+    
+    .main {
+    margin-left: 200px;
+    font-size: 28px;
+    padding: 0px 10px;
+    flex: 1;
+    }
